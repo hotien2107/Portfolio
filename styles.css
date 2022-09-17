@@ -9,6 +9,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #333;
 }
 
 ul {
@@ -61,4 +62,95 @@ input {
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 10px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.intro__content {
+  flex: 0 0 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro__title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.intro__desc {
+  font-size: 15px;
+  font-weight: 300;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.intro__group-btn {
+  display: flex;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn--primary {
+  background-color: #a855f7;
+  color: #fff;
+  transition: all 0.3s;
+  margin-right: 10px;
+}
+
+.btn--primary:hover {
+  background-color: #9333ea;
+}
+
+.btn--secondary {
+  background-color: #f9fafb;
+  transition: all 0.3s;
+}
+
+.btn--secondary:hover {
+  background-color: #e5e7eb;
+}
+
+.intro__img {
+  flex: 0 0 60%;
+}
+
+.intro__contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro__contact-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.intro__contact-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e5e7eb;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.intro__contact-icon:hover {
+  background-color: #a855f7;
+  color: white;
 }
